@@ -2,7 +2,7 @@ const searchInput = document.querySelector('.cityInput');
 const searchButton = document.querySelector('.cityButton');
 // var val = searchInput.value;
 // var city = searchInput.value;
-var url = "https://api.openweathermap.org/data/2.5/forecast?q=Dhaka&appid=11aa62e707d74c784cb18b19756c5479&units=metric";
+var url = "https://api.openweathermap.org/data/2.5/forecast?q=Chittagong&appid=11aa62e707d74c784cb18b19756c5479&units=metric";
 async function getWeather(){
     // var res = await fetch('https://api.openweathermap.org/data/2.5/forecast?q=Dhaka&appid=11aa62e707d74c784cb18b19756c5479&units=metric')
     var res = await fetch(url)
